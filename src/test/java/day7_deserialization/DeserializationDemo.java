@@ -44,8 +44,7 @@ public class DeserializationDemo {
 		
 		Assert.assertEquals(responseClass.name, "Saurabh","Sorry name is not matched..");
 		
-		Assert.assertEquals(responseClass.job, "automation","Sorry job is not matched..");
-		
+		Assert.assertEquals(responseClass.job, "automation","Sorry job is not matched..");		
 	}
 
 }

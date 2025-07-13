@@ -24,7 +24,6 @@ public class QueryParameterDemo {
 		
 		System.out.println("Response body :"+responseBody);
 		
-		
 		JsonPath resJsonPath = response.getBody().jsonPath();
 		Object firstEmployeeData = resJsonPath.get("data[0]");
 		
