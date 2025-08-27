@@ -72,6 +72,7 @@ public class JSONArrayPOJOClassDemo {
 		Assert.assertEquals(response.statusCode(), 200,"status code is not matched..");
 		
 		System.out.println("------------- Deserialization -------------");
+		
 		JsonPath jsonPathView = response.jsonPath();
 		System.out.println(jsonPathView.getString("json[1].firstName"));
 	
